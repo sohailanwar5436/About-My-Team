@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent{
+  display: flex;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+color: #fff;
+flex-wrap: wrap;
+}
+.main-heading {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #fff;
+  min-height:10px;
+  padding: 1rem;
+  font-size: 2rem;
+}
