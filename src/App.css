@@ -1,22 +1,51 @@
-*{
+/* App.css */
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.parent{
+
+body {
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  height: 100vh;
   display: flex;
-  background: linear-gradient(135deg, #89f7fe, #66a6ff);
-color: #fff;
-flex-wrap: wrap;
-}
-.main-heading {
- display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
-  background: linear-gradient(135deg, #89f7fe, #66a6ff);
-  color: #fff;
-  min-height:10px;
-  padding: 1rem;
-  font-size: 2rem;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  background: white;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #2d3436;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #341f97;;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #001aff;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
 }
